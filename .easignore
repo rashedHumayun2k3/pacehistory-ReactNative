@@ -1,0 +1,6 @@
+.gradle/
+android/.gradle/
+node_modules/**/.cxx/
+expo-web.log
+expo-web.err.log
+.expo-login-check/

@@ -1,0 +1,66 @@
+export interface IEvent {
+  createdBy?: number;
+  eventId?: number;
+  eventTypeId?: number;
+  eventCode?: string;
+  eventName?: string;
+  organizerUserID?: number;
+  eventDate?: string | Date;
+  eventYear?: number;
+  raceDistance?: string;
+  distanceCategory?: unknown[];
+  surfaceType?: string;
+  cutoffTimesHr?: number;
+  elevationDetails?: string;
+  eventStatusId?: number;
+  registrationStartDate?: string | Date;
+  registrationEndDate?: string | Date;
+  eventPriceMoney?: string;
+  deliverablesForTheParticipants?: string;
+  registrationLink?: string;
+  facebookLink?: string;
+  instagramLink?: string;
+  otherText?: string;
+  isSelfSupported?: boolean;
+  eventTotalDuration?: string;
+  venueLatitude?: number;
+  venueLongitude?: number;
+  venueCoordinates?: string;
+  routeMap?: string;
+  safetyMeasures?: string;
+  checkInTime?: string;
+  startTime?: string;
+  endTime?: string;
+  eventCategoryId?: number;
+  description?: string;
+  organizerId?: number;
+  eventType?: string;
+  country?: string;
+  venueDetails?: string;
+  totalInterestedCount?: number;
+  totalGoingCount?: number;
+  createdAt?: string | Date;
+  updatedAt?: string | Date;
+  isCustom?: boolean;
+  isCertified?: boolean;
+  certificationList?: string;
+  registrationFeeDetails?: string;
+  imageEventProfilePicture?: string;
+  imageOfEventMadel?: string;
+  imageEventThumPicture1?: string;
+  imageEventThumPicture2?: string;
+  imageEventThumPicture3?: string;
+  imageEventThumPicture4?: string;
+  imageEventThumPicture5?: string;
+  [key: string]: unknown;
+}
+
+export interface EventDistanceCategory {
+  eventDistanceCategoryId?: number;
+  eventId?: number;
+  raceDistance?: string;
+  distanceName?: string;
+  registrationFee?: number;
+  currency?: string;
+  [key: string]: unknown;
+}

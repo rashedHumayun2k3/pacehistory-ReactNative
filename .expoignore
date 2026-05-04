@@ -1,0 +1,7 @@
+.gradle/
+android/.gradle/
+node_modules/**/.cxx/
+.expo-login-check*/
+.expo-routing-check*/
+.expo-signup-check*/
+.expo-common-auth-check*/
